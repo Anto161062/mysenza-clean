@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sensazioni Digitali - MySenza1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fef9f5, #f3ece6);
+      color: #333;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #bf8a35;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .os-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 20px;
+      border: 2px solid #bf8a35;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      text-decoration: none;
+      color: #333;
+      width: 200px;
+      transition: transform 0.3s;
+    }
+    .os-button:hover {
+      transform: scale(1.05);
+    }
+    .os-button img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+    .cancel-button {
+      display: inline-block;
+      margin-top: 40px;
+      background: #ccc;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-mysenza.png" alt="Logo MySenza1" />
+    <h1>Benvenuto in Sensazioni Digitali</h1>
+    <p>Ciao! Se stai vedendo questa pagina, è perché la tua casa e i tuoi tessuti profumano di <strong>MySenza1</strong>. Ora anche il tuo PC o Mac può respirare meglio. Scegli il tuo sistema operativo e inizia la pulizia.</p>
+  </header>
+
+  <div class="button-container">
+    <a href="windows.html" class="os-button">
+      <img src="https://img.icons8.com/color/96/windows-10.png" alt="Windows">
+      <span>Se hai Windows, clicca qui</span>
+    </a>
+
+    <a href="mac.html" class="os-button">
+      <img src="https://img.icons8.com/ios-filled/100/mac-os.png" alt="macOS">
+      <span>Se hai un Mac, clicca qui</span>
+    </a>
+  </div>
+
+  <a href="#" onclick="window.close()" class="cancel-button">Annulla</a>
+
+  <footer>
+    Offerto con cura da MySenza1 – profuma la tua casa e anche il tuo computer 🤍
+  </footer>
+</body>
+</html>
